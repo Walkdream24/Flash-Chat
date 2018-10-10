@@ -9,6 +9,14 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var registerImageView: UIImageView!
+    @IBOutlet weak var registerButton: UIButton!
+    @IBOutlet weak var loginImageView: UIImageView!
+    @IBOutlet weak var loginButton: UIButton!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
